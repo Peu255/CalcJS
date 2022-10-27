@@ -237,3 +237,16 @@ body {
     bottom: -5.6vh;
     align-items: center;
 }
+
+#radicando {
+    background-color: #eeeeeee7;
+    border: 1px solid #111;
+    min-width: 100px;
+    max-width: 190px;
+    min-height: 200px;
+    max-height: 240px;
+    font-size: 3rem;
+    outline: none;
+    margin-left: 28vw;
+    margin-top: 38vh;
+}
