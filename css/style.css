@@ -10,6 +10,62 @@ body {
     background: linear-gradient(to right, #122221, #2dade4); 
 }
 
+.power {
+    background: linear-gradient(to right, #2a6fca, #2dade4);
+    cursor: pointer;
+    outline: none;
+    font-size: 1.2rem;
+    min-height: 36px;
+    min-width: 120px;
+    color: #eee;
+    border: 1px solid #111;
+    position: absolute;
+    margin-left: 80vw;
+    margin-top: 25vh;
+}
+
+.sqrt {
+    background: linear-gradient(to right, #2a6fca, #2dade4);
+    cursor: pointer;
+    outline: none;
+    font-size: 1.2rem;
+    min-height: 36px;
+    min-width: 120px;
+    color: #eee;
+    border: 1px solid #111;
+    position: absolute;
+    margin-left: 80vw;
+    margin-top: 35vh;
+}
+
+.triangle {
+    background: linear-gradient(to right, #2a6fca, #2dade4);
+    cursor: pointer;
+    outline: none;
+    font-size: 1.2rem;
+    min-height: 36px;
+    min-width: 120px;
+    color: #eee;
+    border: 1px solid #111;
+    position: absolute;
+    margin-left: 80vw;
+    margin-top: 45vh;
+}
+
+.quadratic-formula {
+    background: linear-gradient(to right, #2a6fca, #2dade4);
+    cursor: pointer;
+    outline: none;
+    font-size: 1.2rem;
+    min-height: 36px;
+    min-width: 120px;
+    color: #eee;
+    border: 1px solid #111;
+    position: absolute;
+    margin-left: 80vw;
+    margin-top: 55vh;
+}
+
 .grid-container {
     display: grid;
     justify-content: center;
@@ -65,4 +121,41 @@ body {
 .grid-container > .output > .current-operand {
     color: #eee;
     font-size: 2.5rem;
+}
+
+#base {
+    background-color: rgba(238, 238, 238, 0.904);
+    border: 1px solid #111;
+    min-width: 100px;
+    max-width: 190px;
+    min-height: 200px;
+    max-height: 240px;
+    font-size: 3rem;
+    outline: none;
+    margin-left: 35vw;
+    margin-top: 38vh;
+}
+
+#expoente {
+    background-color: rgba(238, 238, 238, 0.904);
+    border: 1px solid #111;
+    min-width: 40px;
+    max-width: 40px;
+    min-height: 60px;
+    font-size: 3rem;
+    outline: none;
+    margin-left: 2vw;
+    margin-top: 35vh;
+    position: absolute;
+}
+
+.equals-div {
+    position: absolute;
+    top: 46vh;
+    left: 55vw;
+}
+
+.equals-sign {
+    color: #eee;
+    font-size: 4rem;
 }
