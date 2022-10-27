@@ -124,7 +124,7 @@ body {
 }
 
 #base {
-    background-color: rgba(238, 238, 238, 0.904);
+    background-color: #eeeeeee7;
     border: 1px solid #111;
     min-width: 100px;
     max-width: 190px;
@@ -132,12 +132,12 @@ body {
     max-height: 240px;
     font-size: 3rem;
     outline: none;
-    margin-left: 35vw;
+    margin-left: 28vw;
     margin-top: 38vh;
 }
 
 #expoente {
-    background-color: rgba(238, 238, 238, 0.904);
+    background-color: #eeeeeee7;
     border: 1px solid #111;
     min-width: 40px;
     max-width: 50px;
@@ -149,13 +149,101 @@ body {
     position: absolute;
 }
 
+
+.resultPower {
+    background-color: #eeeeeee7;
+    border: 1px solid #111;
+    width: 230px;
+    height: 200px;
+    position: absolute;
+    left: 12vw;
+    bottom: -5.6vh;
+}
+
+.power-ppage {
+    background: linear-gradient(to right, #2a6fca, #2dade4);
+    cursor: pointer;
+    outline: none;
+    font-size: 1.2rem;
+    min-height: 36px;
+    min-width: 120px;
+    color: #eee;
+    border: 1px solid #111;
+    position: absolute;
+    margin-left: 8vw;
+    margin-top: 80vh;
+}
+
+.sqrt-ppage {
+    background: linear-gradient(to right, #2a6fca, #2dade4);
+    cursor: pointer;
+    outline: none;
+    font-size: 1.2rem;
+    min-height: 36px;
+    min-width: 120px;
+    color: #eee;
+    border: 1px solid #111;
+    position: absolute;
+    margin-left: 28vw;
+    margin-top: 80vh;
+}
+
+.basic-ppage {
+    background: linear-gradient(to right, #2a6fca, #2dade4);
+    cursor: pointer;
+    outline: none;
+    font-size: 1.2rem;
+    min-height: 36px;
+    min-width: 120px;
+    color: #eee;
+    border: 1px solid #111;
+    position: absolute;
+    margin-left: 48vw;
+    margin-top: 80vh;
+}
+
+.triangle-ppage {
+    background: linear-gradient(to right, #2a6fca, #2dade4);
+    cursor: pointer;
+    outline: none;
+    font-size: 1.2rem;
+    min-height: 36px;
+    min-width: 120px;
+    color: #eee;
+    border: 1px solid #111;
+    position: absolute;
+    margin-left: 68vw;
+    margin-top: 80vh;
+}
+
+.quadratic-formula-ppage {
+    background: linear-gradient(to right, #2a6fca, #2dade4);
+    cursor: pointer;
+    outline: none;
+    font-size: 1.2rem;
+    min-height: 36px;
+    min-width: 120px;
+    color: #eee;
+    border: 1px solid #111;
+    position: absolute;
+    margin-left: 88vw;
+    margin-top: 80vh;
+}
+
 .equals-div {
     position: absolute;
     top: 46vh;
-    left: 55vw;
+    left: 51vw;
 }
 
 .equals-sign {
     color: #eee;
     font-size: 4rem;
 }
+
+.equals-button-power {
+    background-color: #057d9200;
+    width: 100px;
+    border: 1px solid #111;
+}
+

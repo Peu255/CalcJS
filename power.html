@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="pt-br">
 <head>
     <link href="css/style.css" type="text/css" rel="stylesheet">
     <meta charset="UTF-8">
@@ -8,10 +8,17 @@
     <title>CalcJS</title>
 </head>
 <body>
+    <a href="./power.html"><button class="power-ppage">aⁿ</button></a>
+    <a href="./sqrt.html"><button class="sqrt-ppage">²√x</button></a>
+    <a href="./triangle.html"><button class="triangle-ppage">△ b.h/2</button></a>
+    <a href="./quadratic-formula.html"><button class="quadratic-formula-ppage">ax²+bx+c=0</button></a>
+    <a href="./index.html"><button class="basic-ppage">Basic</button></a>
+
     <input type="text" id="base">
     <input type="text" id="expoente">
     <div class="equals-div">
-    <h1 class="equals-sign">=</h1>
+    <button class="equals-button-power"><h1 class="equals-sign">=</h1></button>
+    <div class="resultPower"></div>
     </div>
 <script src="js/power.js" type="text/javascript"></script>
 </body>
