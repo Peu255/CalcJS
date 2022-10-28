@@ -250,3 +250,89 @@ body {
     margin-left: 28vw;
     margin-top: 38vh;
 }
+
+.base-tpage {
+    background-color: #eeeeeee7;
+    border: 1px solid #111;
+    min-width: 100px;
+    max-width: 100px;
+    min-height: 70px;
+    font-size: 3rem;
+    outline: none;
+    margin-left: 14vw;
+    margin-top: 20vh;
+}
+
+.altura-tpage {
+    background-color: #eeeeeee7;
+    border: 1px solid #111;
+    min-width: 100px;
+    max-width: 100px;
+    min-height: 70px;
+    font-size: 3rem;
+    outline: none;
+    margin-left: 10vw;
+    margin-top: 20vh;
+}
+
+.altura-text{
+    color: #eee;
+    margin-left: 27vw;
+    margin-top: -29.35vh;
+    position: absolute;
+}
+
+.base-text {
+    color: #eee;
+    margin-left: 44vw;
+    margin-top: 5vh;
+    position: relative;
+}
+
+.visual-triangle {
+    width: 40px;
+    height: 40px;
+    color: #eee;
+    position: absolute;
+    font-size: 6rem;
+    margin-top: 13vh;
+    margin-left: 37vw;
+}
+
+.calc-area {
+    width: 30px;
+    height: 30px;
+    color: #eee;
+    position: absolute;
+    margin-top: 20vh;
+    margin-left: 50vw;
+}
+
+#calc-area-button {
+    cursor: pointer;
+}
+
+.result-area-div {
+    height: 70px;
+    width: 100px;
+    color: #111;
+    position: absolute;
+    margin-top: 17vh;
+    margin-left: 58vw;
+    font-size: 2.5rem;
+    background-color: #eee;
+}
+
+#result-area-text {
+    margin-top: 1.65vh;
+    display: flex;
+    justify-content: center;
+}
+
+.alert-div {
+    color: #eeeeeed8;
+    font-size: 0.9rem;
+    position: absolute;
+    margin-top: 34vh;
+    margin-left: 39vw;
+}
