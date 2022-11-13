@@ -149,6 +149,48 @@ body {
     position: absolute;
 }
 
+.power-ppage{
+    background: linear-gradient(to right, #2a6fca, #2dade4);
+    cursor: pointer;
+    outline: none;
+    font-size: 1.2rem;
+    min-height: 36px;
+    min-width: 120px;
+    color: #eee;
+    border: 1px solid #111;
+    position: absolute;
+    margin-left: 10vw;
+    margin-top: 80vh;
+}
+
+.power-tpage{
+    background: linear-gradient(to right, #2a6fca, #2dade4);
+    cursor: pointer;
+    outline: none;
+    font-size: 1.2rem;
+    min-height: 36px;
+    min-width: 120px;
+    color: #eee;
+    border: 1px solid #111;
+    position: absolute;
+    margin-left: 60vw;
+    margin-top: 80vh;
+}
+
+.power-qpage{
+    background: linear-gradient(to right, #2a6fca, #2dade4);
+    cursor: pointer;
+    outline: none;
+    font-size: 1.2rem;
+    min-height: 36px;
+    min-width: 120px;
+    color: #eee;
+    border: 1px solid #111;
+    position: absolute;
+    margin-left: 80vw;
+    margin-top: 80vh;
+}
+
 .sqrt-ppage {
     background: linear-gradient(to right, #2a6fca, #2dade4);
     cursor: pointer;
