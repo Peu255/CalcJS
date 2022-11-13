@@ -378,3 +378,118 @@ body {
     margin-top: 34vh;
     margin-left: 39vw;
 }
+
+.a-value {
+    background-color: #eeeeeee7;
+    border: 1px solid #111;
+    min-width: 100px;
+    max-width: 100px;
+    min-height: 70px;
+    font-size: 3rem;
+    outline: none;
+    margin-left: 8vw;
+    margin-top: 20vh;
+}
+
+.b-value {
+    background-color: #eeeeeee7;
+    border: 1px solid #111;
+    min-width: 100px;
+    max-width: 100px;
+    min-height: 70px;
+    font-size: 3rem;
+    outline: none;
+    margin-left: 14vw;
+    margin-top: 20vh;
+}
+
+.c-value {
+    background-color: #eeeeeee7;
+    border: 1px solid #111;
+    min-width: 100px;
+    max-width: 100px;
+    min-height: 70px;
+    font-size: 3rem;
+    outline: none;
+    margin-left: 57vw;
+    margin-top: 20vh;
+}
+
+.a-div {
+    margin-left: 23vw;
+    margin-top: -29.35vh;
+    position: absolute;
+}
+
+.b-div {
+    margin-left: 30vw;
+    margin-top: -29.35vh;
+    position: absolute;
+}
+
+
+.delta-img {
+    width: 40px;
+    height: 40px;
+    color: #eee;
+    position: absolute;
+    font-size: 6rem;
+    margin-top: 1vh;
+    margin-left: 39vw;
+}
+
+.delta-value-text {
+    width: 130px;
+    height: 60px;
+    margin-top: 4.1vh;
+    margin-left: 52vw;
+    position: absolute;
+    background-color: #eee;
+    color: #eee;
+    font-size: 3rem;
+}
+
+.x1-div {
+    height: 50px;
+    width: 70px;
+    margin-left: 30vw;
+    margin-top: 26vh;
+    font-size: 2rem;
+    position: absolute;
+    color: #eee;
+}
+
+.x2-div {
+    height: 50px;
+    width: 70px;
+    margin-left: 60vw;
+    margin-top: 26vh;
+    font-size: 2rem;
+    position: absolute;
+    color: #eee;
+}
+
+.x1-value-text {
+    color: #eee;
+    position: absolute;
+    font-size: 2rem;
+    margin-top: 26vh;
+    margin-left: 35.4vw;
+}
+
+.x2-value-text {
+    color: #eee;
+    position: absolute;
+    font-size: 2rem;
+    margin-top: 26vh;
+    margin-left: 65.4vw;
+}
+
+.calc-quadratic{
+    width: 60px;
+    height: 30px;
+    margin-top: 6vh;
+    margin-left: 45vw;
+    position: absolute;
+    cursor: pointer;
+}

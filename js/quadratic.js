@@ -1,4 +1,4 @@
-function calc(){
+function Quadr(){
     a = document.getElementById("a").value;
     b = document.getElementById("b").value;
     c = document.getElementById("c").value;
