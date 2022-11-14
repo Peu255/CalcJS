@@ -5,12 +5,12 @@ function Quadr(){
     
     delta = eval(Math.pow(parseInt(b), 2) - 4 * parseInt(a) * parseInt(c));
     
-    document.getElementById("result").innerHTML = delta;
+    document.getElementById("delta").innerHTML = delta;
     
     x1 = eval((-parseInt(b) + Math.sqrt(delta)) / 2 * parseInt(a));
     x2 = eval((-parseInt(b) - Math.sqrt(delta)) / 2 * parseInt(a));
     
-    document.getElementById("kk").innerHTML = x1;
-    document.getElementById("ko").innerHTML = x2;
+    document.getElementById("x1").innerHTML = x1;
+    document.getElementById("x2").innerHTML = x2;
     }
     
